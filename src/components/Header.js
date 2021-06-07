@@ -8,7 +8,7 @@ export default function Header() {
     <li className="nav-item">
       <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars" /></a>
     </li>
-    <li className="nav-item d-none d-sm-inline-block">
+    {/* <li className="nav-item d-none d-sm-inline-block">
       <a href="/" className="nav-link">Home</a>
     </li>
     <li className="nav-item d-none d-sm-inline-block">
@@ -16,7 +16,7 @@ export default function Header() {
     </li>
     <li className="nav-item d-none d-sm-inline-block">
       <a href="/newproduct" className="nav-link">Add New Product</a>
-    </li>
+    </li> */}
   </ul>
   {/* SEARCH FORM */}
   <form className="form-inline ml-3">
