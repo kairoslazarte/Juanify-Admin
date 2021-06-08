@@ -6,7 +6,8 @@ import Content from './components/Content'
 import Menu from './components/Menu'
 import Forms from './components/Forms'
 import NewProduct from './components/NewProduct'
-
+import table from './components/chart'
+import './style.css';
 export default function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ export default function App() {
               <Route component={Content} exact={true} path="/"/>
               <Route component={Forms} exact={true} path="/forms"/>
               <Route component={NewProduct} exact={true} path="/newproduct"/>
+              <Route component={table} exact={true} path="/table"/>
             </Switch>
           </div>
         <Footer/>

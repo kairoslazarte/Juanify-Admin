@@ -39,6 +39,14 @@ export default function Menu() {
           </a>
         </li>
         <li className="nav-item has-treeview">
+          <a href="/table" className="nav-link">
+            <i className="nav-icon far fa-plus-square" />
+            <p>
+              Tables 
+            </p>
+          </a>
+        </li>
+        <li className="nav-item has-treeview">
           <a href="/newproduct" className="nav-link">
             <i className="nav-icon far fa-plus-square" />
             <p>
