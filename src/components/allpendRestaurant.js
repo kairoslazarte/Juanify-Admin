@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Content() {
+export default function allpendRestaurant() {
     return (
         <div className="content-wrapper">
             {/* Content Header (Page header) */}
@@ -12,7 +12,7 @@ export default function Content() {
                         <div className="col-sm-6">
                             <ol className="breadcrumb float-sm-right">
                                 <li className="breadcrumb-item"><a href="#">Restaurant</a></li>
-                                <li className="breadcrumb-item active">All Restaurant</li>
+                                <li className="breadcrumb-item active">Pending Restaurant</li>
                             </ol>
                         </div>{/* /.col */}
                     </div>{/* /.row */}
@@ -23,7 +23,7 @@ export default function Content() {
             <div class="col-lg-12 col-md-12">
                 <div class="container shadow mt-4">
                     <div class="row m-1">
-                        <h2>Pending Restaurant List</h2>
+                        <h2> Pending Restaurant List</h2>
                     </div>
                     <div class="col-12">
                         <form>

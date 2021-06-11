@@ -1,5 +1,6 @@
 import React from 'react'
-
+import jollibee from '../images/jollibee1.jpg';
+import mcdo from '../images/mcdo1.jpg';
 export default function Content() {
   return (
     <div className="content-wrapper">
@@ -25,16 +26,19 @@ export default function Content() {
         <div className="container-fluid">
           <div class="row mb-3">
             <div class="col-xl-3 col-lg-6">
-              <div class="card card-inverse card-success cardEffects ">
-                <div class="card-block bg-success">
-                  <div class="rotate">
-                    <i class="fa fa-user fa-5x"></i>
+              <a>
+                <div class="card card-inverse card-success cardEffects ">
+                  <div class="card-block bg-success">
+                    <div class="rotate">
+                      <i class="fa fa-user fa-5x"></i>
+                    </div>
+                    <h6 class="text-uppercase">Received</h6>
+                    <h1 class="display-1">134</h1>
                   </div>
-                  <h6 class="text-uppercase">Received</h6>
-                  <h1 class="display-1">134</h1>
                 </div>
-              </div>
+              </a>
             </div>
+
             <div class="col-xl-3 col-lg-6">
               <div class="card card-inverse card-danger cardEffects">
                 <div class="card-block bg-danger">
@@ -304,11 +308,49 @@ export default function Content() {
             {/* /.col-md-6 */}
           </div>
           {/* /.row */}
+          <div class="card">
+            <h5 class="card-header">Latest Orders</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <img class="col-xl-4" src={mcdo}></img>
+                    <div class="col-md-6">
+                      <h5 class="card-title font-weight-bold mb-2">Mcdonald</h5>
+                      <p class="card-text">Status</p>
+                      <p class="card-text">Order No.</p>
+                      <p class="card-text">47 minutes</p>
+                      <p class="card-text">Branch</p>
+                      <p class="card-text">Delivery Location</p>
+                      {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr/>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <img class="col-xl-4" src={jollibee}></img>
+                    <div class="col-md-6">
+                      <h5 class="card-title font-weight-bold mb-2">Jollibee</h5>
+                      <p class="card-text">Status</p>
+                      <p class="card-text">Order No.</p>
+                      <p class="card-text">47 minutes</p>
+                      <p class="card-text">Branch</p>
+                      <p class="card-text">Delivery Location</p>
+                      {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         {/* /.container-fluid */}
       </div>
       {/* /.content */}
-    </div>
+    </div >
 
   )
 }

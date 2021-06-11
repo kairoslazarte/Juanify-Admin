@@ -31,6 +31,14 @@ export default function Menu() {
               </a>
             </li>
             <li className="nav-item has-treeview">
+              <a href="/Dispatcher" className="nav-link">
+                <i className="nav-icon fas fa-desktop" />
+                <p>
+                  Dispatcher
+            </p>
+              </a>
+            </li>
+            <li className="nav-item has-treeview">
               <a href="/forms" className="nav-link">
                 <i className="nav-icon fas fa-edit" />
                 <p>
@@ -39,13 +47,13 @@ export default function Menu() {
               </a>
             </li>
             <li className="nav-item has-treeview">
-              <a href="/table" className="nav-link" >
-                <i className="nav-icon far fa-plus-square" />
+              <a href="/userTable" className="nav-link" >
+                <i className="nav-icon fas fa-user" />
                 <p>
-                  Tables
+                  User
             </p>
               </a>
-            </li> 
+            </li>
             <li className="nav-item has-treeview">
               <a href="" className="nav-link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                 <i className="nav-icon fas fa-utensils" />
@@ -56,18 +64,18 @@ export default function Menu() {
               <div class="collapse" id="collapseExample">
                 <div class="card card-body">
                   <div class="list-group list-group-flush">
-                    <a href="/table" class="list-group-item list-group-item-action active" aria-current="true">
+                    <a href="/allRestaurant" class="list-group-item list-group-item-action active" aria-current="true">
                       All Restaurant
                       {/* <span class="badge badge-primary badge-pill">14</span> */}
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action">Pending Restaurant</a>
-                    <a href="#" class="list-group-item list-group-item-action">Rejected Restaurant</a>
+                    <a href="/allpendRestaurant" class="list-group-item list-group-item-action">Pending Restaurant</a>
+                    <a href="/allrejectRestaurant" class="list-group-item list-group-item-action">Rejected Restaurant</a>
                   </div>
                 </div>
               </div>
             </li>
 
-            <li className="nav-item has-treeview"> 
+            <li className="nav-item has-treeview">
               <a href="" className="nav-link" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
                 <i className="nav-icon fas fa-truck" />
                 <p>
@@ -87,7 +95,14 @@ export default function Menu() {
                 </div>
               </div>
             </li>
-
+            <li className="nav-item has-treeview">
+              <a href="/orderDeliveryList" className="nav-link">
+                <i className="nav-icon far fa-comments" />
+                <p>
+                  Order Delivery List
+            </p>
+              </a>
+            </li>
 
 
 

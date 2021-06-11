@@ -23,6 +23,7 @@
     transform: rotate(-44deg);
   }
   .cardEffects {
+    cursor: pointer;
     border: 1px solid #ccc;
     transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
   }
