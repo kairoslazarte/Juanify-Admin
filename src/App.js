@@ -12,6 +12,7 @@ import allrejectRestaurant from './components/allrejectRestaurant'
 import userTable from './components/userTable'
 import orderDeliveryList from './components/orderDeliveryList'
 import Dispatcher from './components/Dispatcher'
+import promo from './components/promo'
 
 import './style.css';
 export default function App() {
@@ -30,6 +31,7 @@ export default function App() {
               <Route component={allpendRestaurant} exact={true} path="/allpendRestaurant"/>
               <Route component={allrejectRestaurant} exact={true} path="/allrejectRestaurant"/>
               <Route component={orderDeliveryList} exact={true} path="/orderDeliveryList"/>
+              <Route component={promo} exact={true} path="/promo"/>
             </Switch>
           </div>
         <Footer/>
