@@ -51,14 +51,14 @@ export default function Dispatcher() {
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="row">
-                                    <img class="col-xl-4" src={mcdo}></img>
+                                    <img className=" custom-img col-xl-4 " src={mcdo}></img>
                                     <div class="col-md-6">
-                                        <h5 class="card-title font-weight-bold mb-2">Mcdonald</h5>
-                                        <p class="card-text">Status</p>
-                                        <p class="card-text">Order No.</p>
-                                        <p class="card-text">47 minutes</p>
-                                        <p class="card-text">Branch</p>
-                                        <p class="card-text">Delivery Location</p>
+                                        <h5 class="card-title font-weight-bold mb-2 ml-2">Mcdonald's</h5>
+                                        <p class="card-text ml-2 ">Status</p>
+                                        <p class="card-text ml-2 ">Order No.</p>
+                                        <p class="card-text ml-2 ">47 minutes</p>
+                                        <p class="card-text ml-2">Branch</p>
+                                        <p class="card-text ml-2 ">Delivery Location</p>
                                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                                     </div>
                                 </div>
@@ -68,14 +68,14 @@ export default function Dispatcher() {
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="row">
-                                    <img class="col-xl-4" src={jollibee}></img>
+                                    <img className=" custom-img col-xl-4" src={jollibee}></img>
                                     <div class="col-md-6">
-                                        <h5 class="card-title font-weight-bold mb-2">Jollibee</h5>
-                                        <p class="card-text">Status</p>
-                                        <p class="card-text">Order No.</p>
-                                        <p class="card-text">47 minutes</p>
-                                        <p class="card-text">Branch</p>
-                                        <p class="card-text">Delivery Location</p>
+                                        <h5 class="card-title font-weight-bold mb-2 ml-2">Jollibee</h5>
+                                        <p class="card-text ml-2 ">Status</p>
+                                        <p class="card-text ml-2 ">Order No.</p>
+                                        <p class="card-text ml-2">47 minutes</p>
+                                        <p class="card-text ml-2">Branch</p>
+                                        <p class="card-text ml-2 ">Delivery Location</p>
                                         {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
                                     </div>
                                 </div>
