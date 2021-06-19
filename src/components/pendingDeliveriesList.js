@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function allRestaurant() {
+export default function pendingDeliveryList() {
     return (
         <div className="content-wrapper">
             {/* Content Header (Page header) */}
@@ -11,8 +11,8 @@ export default function allRestaurant() {
                         </div>{/* /.col */}
                         <div className="col-sm-6">
                             <ol className="breadcrumb float-sm-right">
-                                <li className="breadcrumb-item"><a href="#">Restaurant</a></li>
-                                <li className="breadcrumb-item active">All Restaurant</li>
+                                <li className="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                <li className="breadcrumb-item active">Order Delivery List</li>
                             </ol>
                         </div>{/* /.col */}
                     </div>{/* /.row */}
@@ -23,18 +23,18 @@ export default function allRestaurant() {
             <div class="col-lg-12 col-md-12">
                 <div class="container shadow mt-4">
                     <div class="row m-1">
-                        <h2>All Restaurant List</h2>
+                        <h2>Pending Delivery List</h2>
                     </div>
                     <div class="col-12">
                         <form>
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="form-group mb-4">
-                                        <input id="exampleFormControlInput1 " type="email" placeholder="What're you searching for?" class="form-control form-control-underlined" />
+                                        <input id="exampleFormControlInput1" type="email" placeholder="What're you searching for?" class="form-control form-control-underlined" />
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
-                                    <button type="submit" class="btn btn-primary rounded-pill btn-block w-25 shadow-sm">Search</button>
+                                    <button type="submit" class="btn btn-info rounded-pill btn-block w-25 shadow-sm">Search</button>
                                 </div>
                                 <div class="col-lg-4">
                                     <select class="form-control form-control-sm">
@@ -57,13 +57,10 @@ export default function allRestaurant() {
                             <thead class="thead-inverse">
                                 <tr>
                                     <th>No</th>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Image</th>
-                                    <th>Address</th>
-                                    <th>Rating</th>
-                                    <th>Contact Details</th>
-                                    <th>Actions</th>
+                                    <th>Customer Name</th>
+                                    <th>Restaurant</th>
+                                    <th>Cost</th>
+                                    <th>Status</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -72,12 +69,11 @@ export default function allRestaurant() {
                                     <td>responsive</td>
                                     <td>bootstrap</td>
                                     <td>cards</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
                                     <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                        <span class="badge badge-pill badge-warning">Pending</span>
+                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -85,12 +81,10 @@ export default function allRestaurant() {
                                     <td>rwd</td>
                                     <td>web designers</td>
                                     <td>theme</td>
-                                    <td>responsive</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    <td><span class="badge badge-pill badge-info">Approved</span>
+                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -98,12 +92,10 @@ export default function allRestaurant() {
                                     <td>free</td>
                                     <td>open-source</td>
                                     <td>download</td>
-                                    <td>template</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    <td><span class="badge badge-pill badge-info">Approved</span>
+                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -111,12 +103,10 @@ export default function allRestaurant() {
                                     <td>frontend</td>
                                     <td>developer</td>
                                     <td>coding</td>
-                                    <td>card panel</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    <td><span class="badge badge-pill badge-info">Approved</span>
+                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -124,12 +114,10 @@ export default function allRestaurant() {
                                     <td>migration</td>
                                     <td>bootstrap 4</td>
                                     <td>mobile-first</td>
-                                    <td>design</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    <td><span class="badge badge-pill badge-info">Approved</span>
+                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -137,12 +125,10 @@ export default function allRestaurant() {
                                     <td>navbar</td>
                                     <td>sticky</td>
                                     <td>jumbtron</td>
-                                    <td>header</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    <td><span class="badge badge-pill badge-warning">Pending</span>
+                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -150,12 +136,10 @@ export default function allRestaurant() {
                                     <td>collapse</td>
                                     <td>affix</td>
                                     <td>submenu</td>
-                                    <td>footer</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    <td><span class="badge badge-pill badge-warning">Pending</span>
+                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -163,12 +147,10 @@ export default function allRestaurant() {
                                     <td>layout</td>
                                     <td>examples</td>
                                     <td>themes</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    <td><span class="badge badge-pill badge-warning">Pending</span>
+                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -176,25 +158,10 @@ export default function allRestaurant() {
                                     <td>migration</td>
                                     <td>bootstrap 4</td>
                                     <td>flexbox</td>
-                                    <td>design</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1,008</td>
-                                    <td>migration</td>
-                                    <td>bootstrap 4</td>
-                                    <td>flexbox</td>
-                                    <td>design</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    <td><span class="badge badge-pill badge-warning">Pending</span>
+                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
                                     </td>
                                 </tr>
                             </tbody>

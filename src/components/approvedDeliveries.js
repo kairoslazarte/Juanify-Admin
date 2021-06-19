@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function allRestaurant() {
+export default function approvedDeliveries(){
     return (
         <div className="content-wrapper">
             {/* Content Header (Page header) */}
@@ -11,8 +11,8 @@ export default function allRestaurant() {
                         </div>{/* /.col */}
                         <div className="col-sm-6">
                             <ol className="breadcrumb float-sm-right">
-                                <li className="breadcrumb-item"><a href="#">Restaurant</a></li>
-                                <li className="breadcrumb-item active">All Restaurant</li>
+                                <li className="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                <li className="breadcrumb-item active">Order Delivery List</li>
                             </ol>
                         </div>{/* /.col */}
                     </div>{/* /.row */}
@@ -23,7 +23,7 @@ export default function allRestaurant() {
             <div class="col-lg-12 col-md-12">
                 <div class="container shadow mt-4">
                     <div class="row m-1">
-                        <h2>All Restaurant List</h2>
+                        <h2>Approved Delivery List</h2>
                     </div>
                     <div class="col-12">
                         <form>
@@ -57,13 +57,10 @@ export default function allRestaurant() {
                             <thead class="thead-inverse">
                                 <tr>
                                     <th>No</th>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Image</th>
-                                    <th>Address</th>
-                                    <th>Rating</th>
-                                    <th>Contact Details</th>
-                                    <th>Actions</th>
+                                    <th>Customer Name</th>
+                                    <th>Restaurant</th>
+                                    <th>Cost</th>
+                                    <th>Status</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -73,12 +70,6 @@ export default function allRestaurant() {
                                     <td>bootstrap</td>
                                     <td>cards</td>
                                     <td>grid</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,002</td>
@@ -86,12 +77,6 @@ export default function allRestaurant() {
                                     <td>web designers</td>
                                     <td>theme</td>
                                     <td>responsive</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,003</td>
@@ -99,12 +84,6 @@ export default function allRestaurant() {
                                     <td>open-source</td>
                                     <td>download</td>
                                     <td>template</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,003</td>
@@ -112,12 +91,6 @@ export default function allRestaurant() {
                                     <td>developer</td>
                                     <td>coding</td>
                                     <td>card panel</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,004</td>
@@ -125,12 +98,6 @@ export default function allRestaurant() {
                                     <td>bootstrap 4</td>
                                     <td>mobile-first</td>
                                     <td>design</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,005</td>
@@ -138,12 +105,6 @@ export default function allRestaurant() {
                                     <td>sticky</td>
                                     <td>jumbtron</td>
                                     <td>header</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,006</td>
@@ -151,12 +112,6 @@ export default function allRestaurant() {
                                     <td>affix</td>
                                     <td>submenu</td>
                                     <td>footer</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,007</td>
@@ -164,12 +119,6 @@ export default function allRestaurant() {
                                     <td>examples</td>
                                     <td>themes</td>
                                     <td>grid</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,008</td>
@@ -177,25 +126,6 @@ export default function allRestaurant() {
                                     <td>bootstrap 4</td>
                                     <td>flexbox</td>
                                     <td>design</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1,008</td>
-                                    <td>migration</td>
-                                    <td>bootstrap 4</td>
-                                    <td>flexbox</td>
-                                    <td>design</td>
-                                    <td>grid</td>
-                                    <td>grid</td>
-                                    <td>
-                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
-                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
-                                    </td>
                                 </tr>
                             </tbody>
                         </table>

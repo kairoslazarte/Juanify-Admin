@@ -28,7 +28,7 @@ export default function Menu() {
                 <i className="nav-icon fas fa-tachometer-alt" />
                 <p>
                   Dashboard
-              </p>
+                </p>
               </a>
             </li>
             <li className="nav-item has-treeview">
@@ -36,7 +36,7 @@ export default function Menu() {
                 <i className="nav-icon fas fa-desktop" />
                 <p>
                   Dispatcher
-            </p>
+                </p>
               </a>
             </li>
             <li className="nav-item has-treeview">
@@ -44,7 +44,7 @@ export default function Menu() {
                 <i className="nav-icon fas fa-edit" />
                 <p>
                   Add User
-            </p>
+                </p>
               </a>
             </li>
             <li className="nav-item has-treeview">
@@ -52,7 +52,7 @@ export default function Menu() {
                 <i className="nav-icon fas fa-user" />
                 <p>
                   User
-            </p>
+                </p>
               </a>
             </li>
             <li className="nav-item has-treeview">
@@ -75,10 +75,9 @@ export default function Menu() {
                 </div>
               </div>
             </li>
-
             <li className="nav-item has-treeview">
               <a href="" className="nav-link" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-                <i className="nav-icon fas fa-truck" />
+                <i className="nav-icon fas fa-box-open" />
                 <p>
                   Delivery People List
                 </p>
@@ -97,12 +96,28 @@ export default function Menu() {
               </div>
             </li>
             <li className="nav-item has-treeview">
-              <a href="/orderDeliveryList" className="nav-link">
-                <i className="nav-icon far fa-comments" />
+              <a href="" className="nav-link" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                <i className="nav-icon fas fa-truck" />
                 <p>
                   Order Delivery List
-            </p>
+                </p>
               </a>
+              <div class="collapse" id="collapseExample3">
+                <div class="card card-body">
+                  <div class="list-group list-group-flush">
+                    <a href="/penddeliver" class="list-group-item list-group-item-action active" aria-current="true">
+                      Pending Deliveries
+                      {/* <span class="badge badge-primary badge-pill">14</span> */}
+                    </a>
+                    <a href="/approveddeliver" class="list-group-item list-group-item-action">Approved Deliveries</a>
+                    <a href="/processdeliver" class="list-group-item list-group-item-action">Process Deliveries</a>
+                    <a href="/ongoingdeliver" class="list-group-item list-group-item-action">Ongoing Deliveries</a>
+                    <a href="/completeddeliver" class="list-group-item list-group-item-action">Completed Deliveries</a>
+                    <a href="/cancelleddeliver" class="list-group-item list-group-item-action">Cancelled Deliveries</a>
+                    
+                  </div>
+                </div>
+              </div>
             </li>
 
             <li className="nav-item has-treeview">
@@ -113,11 +128,6 @@ export default function Menu() {
                 </p>
               </a>
             </li>
-
-
-
-
-
           </ul>
         </nav>
         {/* /.sidebar-menu */}

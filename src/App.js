@@ -11,8 +11,15 @@ import allpendRestaurant from './components/allpendRestaurant'
 import allrejectRestaurant from './components/allrejectRestaurant'
 import userTable from './components/userTable'
 import orderDeliveryList from './components/orderDeliveryList'
+import pendingDeliveryList from './components/pendingDeliveriesList'
+import approveddeliveryList from './components/approvedDeliveries'
+import processDeliveryList from './components/ProcessDeliveries'
+import ongoingDeliveryList from './components/ongoingDeliveries'
+import completedDeliveryList from './components/completedDeleveries'
+import compltedDeliveryList from './components/cancelledDeliveries'
 import Dispatcher from './components/Dispatcher'
 import promo from './components/promo'
+import addPromo from './components/addPromo'
 
 import './style.css';
 export default function App() {
@@ -31,7 +38,14 @@ export default function App() {
               <Route component={allpendRestaurant} exact={true} path="/allpendRestaurant"/>
               <Route component={allrejectRestaurant} exact={true} path="/allrejectRestaurant"/>
               <Route component={orderDeliveryList} exact={true} path="/orderDeliveryList"/>
+              <Route component={pendingDeliveryList} exact={true} path="/penddeliver"/>
+              <Route component={approveddeliveryList} exact={true} path="/approveddeliver"/>
+              <Route component={processDeliveryList} exact={true} path="/processdeliver"/>
+              <Route component={ongoingDeliveryList} exact={true} path="/ongoingdeliver"/>
+              <Route component={completedDeliveryList} exact={true} path="/completeddeliver"/>
+              <Route component={compltedDeliveryList} exact={true} path="/cancelleddeliver"/>
               <Route component={promo} exact={true} path="/promo"/>
+              <Route component={addPromo} exact={true} path="/addPromo"/>
             </Switch>
           </div>
         <Footer/>

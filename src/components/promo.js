@@ -22,10 +22,16 @@ export default function promo() {
             {/* Main content */}
             <div class="col-lg-12 col-md-12">
                 <div class="container shadow mt-4">
-                    <div class="row m-1">
-                        <h2>Promo Codes</h2>
-                    </div>
+                    <div class="row m-1 col-12">
+                        <div class="col-9">
+                            <h2>Promo Codes</h2>
+                        </div>
+                            <div class="col-3 mt-2 mb-2">
+                                <a class="btn btn-default btn-lg btn-3d" href="/addPromo">ADD PROMOCODE</a>
+                            </div>
+                    </div>    
                     <div class="col-12">
+
                         <form>
                             <div class="row">
                                 <div class="col-lg-4">
@@ -64,6 +70,7 @@ export default function promo() {
                                     <th>Usage Limit</th>
                                     <th>No of times used</th>
                                     <th>Status</th>
+                                    <th>Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -76,6 +83,10 @@ export default function promo() {
                                     <td>0</td>
                                     <td>99</td>
                                     <td>On</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,002</td>
@@ -86,6 +97,10 @@ export default function promo() {
                                     <td>grid</td>
                                     <td>grid</td>
                                     <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,003</td>
@@ -96,6 +111,10 @@ export default function promo() {
                                     <td>grid</td>
                                     <td>grid</td>
                                     <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,003</td>
@@ -106,6 +125,10 @@ export default function promo() {
                                     <td>grid</td>
                                     <td>grid</td>
                                     <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,004</td>
@@ -116,6 +139,10 @@ export default function promo() {
                                     <td>grid</td>
                                     <td>grid</td>
                                     <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,005</td>
@@ -126,7 +153,10 @@ export default function promo() {
                                     <td>grid</td>
                                     <td>grid</td>
                                     <td>grid</td>
-
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,006</td>
@@ -137,6 +167,10 @@ export default function promo() {
                                     <td>grid</td>
                                     <td>grid</td>
                                     <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,007</td>
@@ -147,6 +181,10 @@ export default function promo() {
                                     <td>grid</td>
                                     <td>grid</td>
                                     <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,008</td>
@@ -157,7 +195,10 @@ export default function promo() {
                                     <td>grid</td>
                                     <td>grid</td>
                                     <td>grid</td>
-
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
