@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function allRestaurant() {
     return (
         <div className="content-wrapper">
@@ -22,8 +21,13 @@ export default function allRestaurant() {
             {/* Main content */}
             <div class="col-lg-12 col-md-12">
                 <div class="container shadow mt-4">
-                    <div class="row m-1">
-                        <h2>All Restaurant List</h2>
+                <div class="row m-1 col-12">
+                        <div class="col-9">
+                            <h2>All Restaurant List</h2>
+                        </div>
+                            <div class="col-3 mt-2 mb-2">
+                                <a class="btn btn-default btn-lg btn-3d" href="/addRestaurant">ADD RESTAURANT</a>
+                            </div>
                     </div>
                     <div class="col-12">
                         <form>

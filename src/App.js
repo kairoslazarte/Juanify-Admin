@@ -9,7 +9,13 @@ import NewProduct from './components/NewProduct'
 import allRestaurant from './components/allRestaurant'
 import allpendRestaurant from './components/allpendRestaurant'
 import allrejectRestaurant from './components/allrejectRestaurant'
+import addRestaurant from './components/addRestaurant'
+import alldeliveryPeople from './components/alldeliveryPeople'
+import allpendingPeople from './components/pendingdeliveryPeople'
+import allrejectdeliPeople from './components/rejecteddeliveryPeople'
+import adddeliveryPeople from './components/adddeliveryPeople'
 import userTable from './components/userTable'
+import addUser from './components/addUser'
 import orderDeliveryList from './components/orderDeliveryList'
 import pendingDeliveryList from './components/pendingDeliveriesList'
 import approveddeliveryList from './components/approvedDeliveries'
@@ -34,9 +40,15 @@ export default function App() {
               <Route component={Forms} exact={true} path="/forms"/>
               <Route component={NewProduct} exact={true} path="/newproduct"/>
               <Route component={userTable} exact={true} path="/userTable"/>
+              <Route component={addUser} exact={true} path="/addUser"/>
               <Route component={allRestaurant} exact={true} path="/allRestaurant"/>
               <Route component={allpendRestaurant} exact={true} path="/allpendRestaurant"/>
               <Route component={allrejectRestaurant} exact={true} path="/allrejectRestaurant"/>
+              <Route component={addRestaurant} exact={true} path="/addRestaurant"/>
+              <Route component={alldeliveryPeople} exact={true} path="/alldeliveryPeople"/>
+              <Route component={allpendingPeople} exact={true} path="/pendingdeliveryPeople"/>
+              <Route component={allrejectdeliPeople} exact={true} path="/rejecteddeliveryPeople"/>
+              <Route component={adddeliveryPeople} exact={true} path="/adddeliveryPeople"/>
               <Route component={orderDeliveryList} exact={true} path="/orderDeliveryList"/>
               <Route component={pendingDeliveryList} exact={true} path="/penddeliver"/>
               <Route component={approveddeliveryList} exact={true} path="/approveddeliver"/>

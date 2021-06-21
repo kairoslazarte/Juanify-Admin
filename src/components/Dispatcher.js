@@ -13,7 +13,7 @@ export default function Dispatcher() {
                         <div className="col-sm-6">
                             <ol className="breadcrumb float-sm-right">
                                 <li className="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                <li className="breadcrumb-item active">User List</li>
+                                <li className="breadcrumb-item active">Dispatcher</li>
                             </ol>
                         </div>{/* /.col */}
                     </div>{/* /.row */}
@@ -44,7 +44,6 @@ export default function Dispatcher() {
                     <a class="nav-item nav-link" id="cancelledOrder" data-toggle="tab" role="tab" aria-controls="nav-home" aria-selected="true" href="#" href="#">Cancelled Orders</a>
                 </li>
             </ul> */}
-
             <div class="container">
                 <div class="row ">
                     <div class="col-12">

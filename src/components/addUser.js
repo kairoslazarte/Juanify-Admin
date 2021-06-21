@@ -1,5 +1,5 @@
 import React from 'react'
-export default function addPromo() {
+export default function addUser() {
     return (
         <div className="content-wrapper">
             {/* Content Header (Page header) */}
@@ -11,8 +11,8 @@ export default function addPromo() {
                         <div className="col-sm-6">
                             <ol className="breadcrumb float-sm-right">
                                 <li className="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                <li className="breadcrumb-item active">Promo Codes</li>
-                                <li className="breadcrumb-item active">Add New Promo Codes</li>
+                                <li className="breadcrumb-item active">User List</li>
+                                <li className="breadcrumb-item active">Add New User</li>
                             </ol>
                         </div>{/* /.col */}
                     </div>{/* /.row */}
@@ -24,7 +24,7 @@ export default function addPromo() {
                 <div class="container shadow mt-4">
                     <div class="row m-1 col-12">
                         <div class="col-12">
-                            <h2>Add New Promo Codes
+                            <h2>Add New User
                                 <button type="button" class="btn btn-primary px-3 float-right">
                                     <i class="fas fa-arrow-left" aria-hidden="true"></i>
                                 </button>
@@ -33,21 +33,21 @@ export default function addPromo() {
                         <div class="container">
                             <div class="row">
                                 <div class="col-6">
-                                    <p>Promo Code</p>
+                                    <p>Name</p>
                                     <div class="form-group mb-4">
                                         <input id="exampleFormControlInput1 " type="email" placeholder="Type here" class="form-control form-control-underlined" />
                                     </div>
-                                    <p>Discount</p>
+                                    <p>Email Address</p>
                                     <div class="form-group mb-4">
                                         <input id="exampleFormControlInput1 " type="email" placeholder="Type here" class="form-control form-control-underlined" />
                                     </div>
                                 </div>
                                 <div class="col-6">
-                                    <p>Discount Type</p>
+                                    <p>Contact Number</p>
                                     <div class="form-group mb-4">
                                         <input id="exampleFormControlInput1 " type="email" placeholder="Type here" class="form-control form-control-underlined" />
                                     </div>
-                                    <p>Expire Date</p>
+                                    <p>Password</p>
                                     <div class="form-group mb-4">
                                         <input id="exampleFormControlInput1 " type="email" placeholder="Type here" class="form-control form-control-underlined" />
                                     </div>

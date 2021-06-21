@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function cancelledDeliveryList() {
     return (
         <div className="content-wrapper">
@@ -12,7 +11,7 @@ export default function cancelledDeliveryList() {
                         <div className="col-sm-6">
                             <ol className="breadcrumb float-sm-right">
                                 <li className="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                <li className="breadcrumb-item active">Order Delivery List</li>
+                                <li className="breadcrumb-item active">Cancelled Delivery List</li>
                             </ol>
                         </div>{/* /.col */}
                     </div>{/* /.row */}
@@ -54,7 +53,7 @@ export default function cancelledDeliveryList() {
                     </div>
                     <div class="table-responsive">
                         <table class="table table-striped">
-                            <thead class="thead-inverse">
+                        <thead class="thead-inverse">
                                 <tr>
                                     <th>No</th>
                                     <th>Customer Name</th>
@@ -69,63 +68,100 @@ export default function cancelledDeliveryList() {
                                     <td>responsive</td>
                                     <td>bootstrap</td>
                                     <td>cards</td>
-                                    <td>grid</td>
+                                    <td>
+                                        <span class="badge badge-pill badge-warning">Pending</span>
+                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,002</td>
                                     <td>rwd</td>
                                     <td>web designers</td>
                                     <td>theme</td>
-                                    <td>responsive</td>
+                                    <td><span class="badge badge-pill badge-info">Approved</span>
+                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,003</td>
                                     <td>free</td>
                                     <td>open-source</td>
                                     <td>download</td>
-                                    <td>template</td>
+                                    <td><span class="badge badge-pill badge-info">Approved</span>
+                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,003</td>
                                     <td>frontend</td>
                                     <td>developer</td>
                                     <td>coding</td>
-                                    <td>card panel</td>
+                                    <td><span class="badge badge-pill badge-info">Approved</span>
+                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,004</td>
                                     <td>migration</td>
                                     <td>bootstrap 4</td>
                                     <td>mobile-first</td>
-                                    <td>design</td>
+                                    <td><span class="badge badge-pill badge-info">Approved</span>
+                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,005</td>
                                     <td>navbar</td>
                                     <td>sticky</td>
                                     <td>jumbtron</td>
-                                    <td>header</td>
+                                    <td><span class="badge badge-pill badge-warning">Pending</span>
+                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,006</td>
                                     <td>collapse</td>
                                     <td>affix</td>
                                     <td>submenu</td>
-                                    <td>footer</td>
+                                    <td><span class="badge badge-pill badge-warning">Pending</span>
+                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,007</td>
                                     <td>layout</td>
                                     <td>examples</td>
                                     <td>themes</td>
-                                    <td>grid</td>
+                                    <td><span class="badge badge-pill badge-warning">Pending</span>
+                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1,008</td>
                                     <td>migration</td>
                                     <td>bootstrap 4</td>
                                     <td>flexbox</td>
-                                    <td>design</td>
+                                    <td><span class="badge badge-pill badge-warning">Pending</span>
+                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
+                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
+                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>

@@ -2,7 +2,6 @@ import React from 'react'
 import juanMaleIcon from '../images/juanifynew.png';
 export default function Menu() {
   return (
-
     <aside className="main-sidebar sidebar-dark-primary elevation-4 ">
       {/* Brand Logo */}
       <a href="index3.html" className="brand-link">
@@ -85,12 +84,12 @@ export default function Menu() {
               <div class="collapse" id="collapseExample2">
                 <div class="card card-body">
                   <div class="list-group list-group-flush">
-                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                      All Delivery Status
+                    <a href="/alldeliveryPeople" class="list-group-item list-group-item-action active" aria-current="true">
+                      All Delivery People
                       {/* <span class="badge badge-primary badge-pill">14</span> */}
                     </a>
-                    <a href="#" class="list-group-item list-group-item-action">Pending Delivery </a>
-                    <a href="#" class="list-group-item list-group-item-action">Rejected Delivery </a>
+                    <a href="pendingdeliveryPeople" class="list-group-item list-group-item-action">Pending Delivery People </a>
+                    <a href="rejecteddeliveryPeople" class="list-group-item list-group-item-action">Rejected Delivery People </a>
                   </div>
                 </div>
               </div>
@@ -114,12 +113,10 @@ export default function Menu() {
                     <a href="/ongoingdeliver" class="list-group-item list-group-item-action">Ongoing Deliveries</a>
                     <a href="/completeddeliver" class="list-group-item list-group-item-action">Completed Deliveries</a>
                     <a href="/cancelleddeliver" class="list-group-item list-group-item-action">Cancelled Deliveries</a>
-                    
                   </div>
                 </div>
               </div>
             </li>
-
             <li className="nav-item has-treeview">
               <a href="/promo" className="nav-link">
                 <i className="nav-icon fas fa-money-bill-alt" />
@@ -133,7 +130,6 @@ export default function Menu() {
         {/* /.sidebar-menu */}
       </div>
       {/* /.sidebar */}
-    </aside >
-
+    </aside>
   )
 }

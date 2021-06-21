@@ -1,5 +1,5 @@
 import React from 'react'
-export default function pendingDeliveryList() {
+export default function rejecteddeliveryPeople() {
     return (
         <div className="content-wrapper">
             {/* Content Header (Page header) */}
@@ -11,7 +11,7 @@ export default function pendingDeliveryList() {
                         <div className="col-sm-6">
                             <ol className="breadcrumb float-sm-right">
                                 <li className="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                <li className="breadcrumb-item active">Pending Delivery List</li>
+                                <li className="breadcrumb-item active">Rejected Delivery People</li>
                             </ol>
                         </div>{/* /.col */}
                     </div>{/* /.row */}
@@ -21,19 +21,22 @@ export default function pendingDeliveryList() {
             {/* Main content */}
             <div class="col-lg-12 col-md-12">
                 <div class="container shadow mt-4">
-                    <div class="row m-1">
-                        <h2>Pending Delivery List</h2>
-                    </div>
+                    <div class="row m-1 col-12">
+                        <div class="col-12">
+                            <h2>Rejected Delivery People</h2>
+                        </div>
+                    </div>    
                     <div class="col-12">
+
                         <form>
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="form-group mb-4">
-                                        <input id="exampleFormControlInput1" type="email" placeholder="What're you searching for?" class="form-control form-control-underlined" />
+                                        <input id="exampleFormControlInput1 " type="email" placeholder="What're you searching for?" class="form-control form-control-underlined" />
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
-                                    <button type="submit" class="btn btn-info rounded-pill btn-block w-25 shadow-sm">Search</button>
+                                    <button type="submit" class="btn btn-primary rounded-pill btn-block w-25 shadow-sm">Search</button>
                                 </div>
                                 <div class="col-lg-4">
                                     <select class="form-control form-control-sm">
@@ -56,23 +59,29 @@ export default function pendingDeliveryList() {
                             <thead class="thead-inverse">
                                 <tr>
                                     <th>No</th>
-                                    <th>Customer Name</th>
-                                    <th>Restaurant</th>
-                                    <th>Cost</th>
+                                    <th>Promo Code</th>
+                                    <th>Discount Type</th>
+                                    <th>Discount </th>
+                                    <th>Expiration</th>
+                                    <th>Usage Limit</th>
+                                    <th>No of times used</th>
                                     <th>Status</th>
+                                    <th>Actions</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1,001</td>
-                                    <td>responsive</td>
-                                    <td>bootstrap</td>
-                                    <td>cards</td>
+                                    <td>CHRISTMAS2020</td>
+                                    <td>percentage</td>
+                                    <td>10</td>
+                                    <td>31-12-2020</td>
+                                    <td>0</td>
+                                    <td>99</td>
+                                    <td>On</td>
                                     <td>
-                                        <span class="badge badge-pill badge-warning">Pending</span>
-                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
-                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
-                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -80,10 +89,13 @@ export default function pendingDeliveryList() {
                                     <td>rwd</td>
                                     <td>web designers</td>
                                     <td>theme</td>
-                                    <td><span class="badge badge-pill badge-info">Approved</span>
-                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
-                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
-                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    <td>responsive</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -91,10 +103,13 @@ export default function pendingDeliveryList() {
                                     <td>free</td>
                                     <td>open-source</td>
                                     <td>download</td>
-                                    <td><span class="badge badge-pill badge-info">Approved</span>
-                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
-                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
-                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    <td>template</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -102,10 +117,13 @@ export default function pendingDeliveryList() {
                                     <td>frontend</td>
                                     <td>developer</td>
                                     <td>coding</td>
-                                    <td><span class="badge badge-pill badge-info">Approved</span>
-                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
-                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
-                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    <td>card panel</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -113,10 +131,13 @@ export default function pendingDeliveryList() {
                                     <td>migration</td>
                                     <td>bootstrap 4</td>
                                     <td>mobile-first</td>
-                                    <td><span class="badge badge-pill badge-info">Approved</span>
-                                        <a href="#" class="badge badge-primary ml-3">Approve</a>
-                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
-                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    <td>design</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -124,10 +145,13 @@ export default function pendingDeliveryList() {
                                     <td>navbar</td>
                                     <td>sticky</td>
                                     <td>jumbtron</td>
-                                    <td><span class="badge badge-pill badge-warning">Pending</span>
-                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
-                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
-                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    <td>header</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -135,10 +159,13 @@ export default function pendingDeliveryList() {
                                     <td>collapse</td>
                                     <td>affix</td>
                                     <td>submenu</td>
-                                    <td><span class="badge badge-pill badge-warning">Pending</span>
-                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
-                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
-                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    <td>footer</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -146,10 +173,13 @@ export default function pendingDeliveryList() {
                                     <td>layout</td>
                                     <td>examples</td>
                                     <td>themes</td>
-                                    <td><span class="badge badge-pill badge-warning">Pending</span>
-                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
-                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
-                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
@@ -157,10 +187,13 @@ export default function pendingDeliveryList() {
                                     <td>migration</td>
                                     <td>bootstrap 4</td>
                                     <td>flexbox</td>
-                                    <td><span class="badge badge-pill badge-warning">Pending</span>
-                                        <a href="#" class="badge badge-primary ml-4">Approve</a>
-                                        <a href="#" class="badge badge-danger ml-4">Decline</a>
-                                        <a href="#" class="badge badge-dark ml-2">View Details</a>
+                                    <td>design</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>grid</td>
+                                    <td>
+                                        <button type="button" class="btn btn-success ml-2"><i class="fas fa-edit"></i></button>
+                                        <button type="button" class="btn btn-danger ml-2"><i class="far fa-trash-alt"></i></button>
                                     </td>
                                 </tr>
                             </tbody>
