@@ -46,7 +46,6 @@ export default function NewProduct() {
                             <option data-select2-id={32}>Footwear - Women</option>
                         </select>
                         </div>
-
                       <div className="form-group">
                         <label htmlFor="exampleInputPassword1">SKU</label>
                         <input type="text" name="SKU" className="form-control" id="exampleInputPassword1" placeholder="Enter SKU" />

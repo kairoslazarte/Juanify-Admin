@@ -58,4 +58,10 @@ height: 200px;
 .btn.btn-default.btn-3d {
   box-shadow: inset 0 -2px 0 #fab905;
 } 
+[data-toggle="collapse"] .fa:before {  
+  content: "\f139";
+}
 
+[data-toggle="collapse"].collapsed .fa:before {
+  content: "\f13a";
+}

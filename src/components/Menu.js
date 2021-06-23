@@ -38,14 +38,14 @@ export default function Menu() {
                 </p>
               </a>
             </li>
-            <li className="nav-item has-treeview">
+            {/* <li className="nav-item has-treeview">
               <a href="/forms" className="nav-link">
                 <i className="nav-icon fas fa-edit" />
                 <p>
                   Add User
                 </p>
               </a>
-            </li>
+            </li> */}
             <li className="nav-item has-treeview">
               <a href="/userTable" className="nav-link" >
                 <i className="nav-icon fas fa-user" />
@@ -55,12 +55,16 @@ export default function Menu() {
               </a>
             </li>
             <li className="nav-item has-treeview">
+              {/* <div class="d-flex"> */}
               <a href="" className="nav-link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                 <i className="nav-icon fas fa-utensils" />
                 <p>
                   Restaurant
                 </p>
+                <i class="fa float-right" aria-hidden="true"></i>
               </a>
+
+              {/* </div> */}
               <div class="collapse" id="collapseExample">
                 <div class="card card-body">
                   <div class="list-group list-group-flush">
@@ -80,16 +84,17 @@ export default function Menu() {
                 <p>
                   Delivery People List
                 </p>
+                <i class="fa float-right" aria-hidden="true"></i>
               </a>
               <div class="collapse" id="collapseExample2">
                 <div class="card card-body">
                   <div class="list-group list-group-flush">
                     <a href="/alldeliveryPeople" class="list-group-item list-group-item-action active" aria-current="true">
-                      All Delivery People
+                      All Delivery
                       {/* <span class="badge badge-primary badge-pill">14</span> */}
                     </a>
-                    <a href="pendingdeliveryPeople" class="list-group-item list-group-item-action">Pending Delivery People </a>
-                    <a href="rejecteddeliveryPeople" class="list-group-item list-group-item-action">Rejected Delivery People </a>
+                    <a href="pendingdeliveryPeople" class="list-group-item list-group-item-action">Pending Delivery</a>
+                    <a href="rejecteddeliveryPeople" class="list-group-item list-group-item-action">Rejected Delivery</a>
                   </div>
                 </div>
               </div>
@@ -100,6 +105,8 @@ export default function Menu() {
                 <p>
                   Order Delivery List
                 </p>
+                <i class="fa float-right" aria-hidden="true"></i>
+
               </a>
               <div class="collapse" id="collapseExample3">
                 <div class="card card-body">
@@ -124,6 +131,31 @@ export default function Menu() {
                   Promo Codes
                 </p>
               </a>
+            </li>
+            <li className="nav-item has-treeview">
+              <a href="" className="nav-link" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                <i className="nav-icon fas fa-cog" />
+                <p>
+                  Settings
+                </p>
+                <i class="fa float-right" aria-hidden="true"></i>
+
+              </a>
+              <div class="collapse" id="collapseExample4">
+                <div class="card card-body">
+                  <div class="list-group list-group-flush">
+                    <a href="/penddeliver" class="list-group-item list-group-item-action active" aria-current="true">
+                      Settings
+                      {/* <span class="badge badge-primary badge-pill">14</span> */}
+                    </a>
+                    <a href="/approveddeliver" class="list-group-item list-group-item-action">Settings</a>
+                    <a href="/processdeliver" class="list-group-item list-group-item-action">Settings</a>
+                    <a href="/ongoingdeliver" class="list-group-item list-group-item-action">Settings</a>
+                    <a href="/completeddeliver" class="list-group-item list-group-item-action">Settings</a>
+                    <a href="/cancelleddeliver" class="list-group-item list-group-item-action">Settings</a>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </nav>

@@ -157,7 +157,6 @@ export default function allpendRestaurant() {
                                     <td>grid</td>
                                     <td>grid</td>
                                     <td>grid</td>
-
                                 </tr>
                             </tbody>
                         </table>
